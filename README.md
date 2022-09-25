@@ -8,7 +8,7 @@ Preview the site by clicking [here](https://qrcodecomponent-thullyo.netlify.app/
 
 This was my first Frontend Mentor challenge and I am really proud of the result I got. 
 
-I know it's a simple project, but I could practice my HTML and CSS and still have some learnings in the process. And that's what matters in the end!
+I know it's a simple project, but I was able to practice my HTML and CSS and still have some learnings in the process. And that's what matters in the end!
 
 Well, my main learning was in the using of the Flexbox because it was my first contact with this subject.
 
