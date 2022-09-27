@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-.attribution {
-    font-size: 11px; text-align: center;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-}
-
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -19,57 +11,54 @@ body {
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 98vh;
-
-    /*  
-        position: relative;
-        width: 1440px;
-        margin: 0 auto;  
-    */
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
 }
 
 .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
     padding: 16px;
     background-color: var(--white);
     max-width: 280px;
     border-radius: 20px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.0);
-    margin-bottom: 20px;
-
-    /* 
-        position: absolute;
-        top: 0; 
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto; 
-        max-height: 450px;        
-    */
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.09);
 }
 
-.container-img {
+.container img {
     max-width: 100%;
     border-radius: 10px;
 }
 
-.container-texts {
+.container div {
     margin: 20px 15px 25px 15px;
 }
 
-.container-title {
+.container h1 {
     margin: 0 0 15px 0;
     color: var(--dark-blue);
     font-size: 22px;
     font-weight: 700;
 }
 
-.container-sub-title {
-    margin: 0%;
+.container h2 {
+    margin: 0;
     color: var(--grayish-blue);
     font-size: 15px;
     font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
